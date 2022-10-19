@@ -1,0 +1,12 @@
+[Unit]
+
+Description="Monitoring files"
+
+[Service]
+
+ExecStart=path_to_executable
+Type=simple
+
+[Install]
+
+WantedBy=default.target
